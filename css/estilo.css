@@ -1,0 +1,26 @@
+body {
+	background: url('../assets/bg2.jpg') ;
+}
+
+html, body {
+	height: 100%;
+}
+
+@font-face {
+	src: url('../fonts/love.woff');
+	font-family: 'love';
+}
+
+#main {
+	margin-top: 60%;
+}
+
+.titulo {
+	font-family: love;
+}
+
+.card {
+	/*background-color: rgba(0, 0, 0, .5);*/
+	background-color: rgba(138, 8, 41, 0.5);
+	border-radius: 20px;
+}
