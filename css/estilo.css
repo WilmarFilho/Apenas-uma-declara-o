@@ -46,8 +46,10 @@ html, body, #main {
 #login {
 	position: absolute;
 	top: 30%;
-	left: 10%;
+	left: 15%;
+	display: none;
 }
+
 
 .titulo {
 	font-family: love;
@@ -56,6 +58,11 @@ html, body, #main {
 .label-login {
 	color: #F7F2E0;
 	font-family: love2;
+}
+
+.label-erro {
+	color: #F7F2E0;
+	font-family: love;
 }
 
 .card {
