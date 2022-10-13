@@ -1,9 +1,3 @@
-<?php  
-
-
-
- ?>
-
 <html>
 <head>
 	<meta charset="utf-8">
@@ -43,7 +37,6 @@
 			</div>
 
 		</div>
-
 
 	</div>
 </body>

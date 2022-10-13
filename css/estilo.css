@@ -8,24 +8,46 @@
 		left: 10%;
 	}	
 
+	div#album {
+		position: absolute;
+		left: 11%;
+		display: none;
+	}
+
 
 }
 
 @media (min-width: 475.99px) and (max-width: 575.98px) {
 
+	div#album {
+		position: absolute;
+		left: 11%;
+		display: none;
+	}
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
 
+	div#album {
+		position: absolute;
+		left: 11%;
+		display: none;
+	}
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
 
+	div#album {
+		position: absolute;
+		left: 20%;
+		display: none;
+	}
 }
 
 
 body {
 	background: url('../assets/bg10.jpg') no-repeat center;
+	background-color: #071918;
 	background-size: cover;
 }
 
@@ -43,30 +65,39 @@ html, body, #main {
 	font-family: 'love2';
 }
 
-#login {
+#login, #album {
 	position: absolute;
-	top: 30%;
-	left: 15%;
 	display: none;
 }
 
+#login{
+	top: 30%;
+	left: 15%;
+}
 
-.titulo {
+#album {
+	left: 38%;
+}
+
+.titulo, .label-erro {
 	font-family: love;
 }
 
-.label-login {
+.label-foto, .label-login {
 	color: #F7F2E0;
 	font-family: love2;
 }
 
+.label-foto {
+	font-size: 1.3em;
+}
+
+
 .label-erro {
 	color: #F7F2E0;
-	font-family: love;
 }
 
 .card {
-	/*background-color: rgba(0, 0, 0, .5);*/
 	background-color: rgba(138, 8, 41, 0.5);
 	border-radius: 15px;
 }
@@ -84,4 +115,14 @@ html, body, #main {
 
 .btn-outline-danger:hover {
 	background-color: rgba(138, 8, 41, 1);
+}
+
+.fotos {
+	border-radius: 25px;
+}
+
+.data {
+	font-family: love;
+	padding: 10px;
+	text-shadow: 0 0 1em red;
 }
