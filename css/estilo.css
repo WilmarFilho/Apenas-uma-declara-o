@@ -1,8 +1,35 @@
-body {
-	background: url('../assets/bg2.jpg') ;
+/*Responsividade*/
+
+@media (max-width: 475.98px) {
+
+	div#login {
+		position: absolute;
+		top: 30%;
+		left: 10%;
+	}	
+
+
 }
 
-html, body {
+@media (min-width: 475.99px) and (max-width: 575.98px) {
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+}
+
+
+body {
+	background: url('../assets/bg10.jpg') no-repeat center;
+	background-size: cover;
+}
+
+html, body, #main {
 	height: 100%;
 }
 
@@ -11,16 +38,43 @@ html, body {
 	font-family: 'love';
 }
 
-#main {
-	margin-top: 60%;
+@font-face {
+	src: url('../fonts/love2.woff');
+	font-family: 'love2';
+}
+
+#login {
+	position: absolute;
+	top: 30%;
+	left: 10%;
 }
 
 .titulo {
 	font-family: love;
 }
 
+.label-login {
+	color: #F7F2E0;
+	font-family: love2;
+}
+
 .card {
 	/*background-color: rgba(0, 0, 0, .5);*/
 	background-color: rgba(138, 8, 41, 0.5);
-	border-radius: 20px;
+	border-radius: 15px;
+}
+
+.input-login {
+	border-radius: 12px;
+}
+
+.btn-outline-danger {
+    color: #F7F2E0 !important;
+    background-color: transparent;
+    background-image: none;
+    border-color: #F7F2E0 !important;
+}
+
+.btn-outline-danger:hover {
+	background-color: rgba(138, 8, 41, 1);
 }
